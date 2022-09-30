@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mills/test/
+    - /bin/cp index.html $DEPLOYPATH
